@@ -1,0 +1,27 @@
+<h1>Listing cateogries</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cateogries.each do |cateogry| %>
+      <tr>
+        <td><%= cateogry.label %></td>
+        <td><%= link_to 'Show', cateogry %></td>
+        <td><%= link_to 'Edit', edit_cateogry_path(cateogry) %></td>
+        <td><%= link_to 'Destroy', cateogry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Cateogry', new_cateogry_path %>
