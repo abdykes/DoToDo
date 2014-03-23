@@ -4,10 +4,10 @@ one:
   label: MyString
   category_id: 1
   due_date: 2014-03-23
-  completion_date: 2014-03-23 13:19:34
+  completion_date: 2014-03-23 13:54:28
 
 two:
   label: MyString
   category_id: 1
   due_date: 2014-03-23
-  completion_date: 2014-03-23 13:19:34
+  completion_date: 2014-03-23 13:54:28

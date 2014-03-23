@@ -1,4 +1,6 @@
 DoToDo::Application.routes.draw do
+  resources :categories
+
   resources :tasks
 
   resources :cateogries

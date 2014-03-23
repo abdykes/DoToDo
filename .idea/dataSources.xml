@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2584290017">
+    <data-source source="LOCAL" name="Rails DoToDo: development" uuid="8b33d7db-7771-46d6-b68a-d69b703a8843">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:DoToDo_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails DoToDo: test" uuid="744b5123-f91c-4831-be4d-074fc4d20a8e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:DoToDo_test</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails DoToDo: production" uuid="4321e487-ce9d-4de5-8b0d-982e91c6cadf">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:DoToDo_production</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

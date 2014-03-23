@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-DoToDo::Application.config.secret_key_base = '754bf2e9d06420b0912079b3f087aeafbcc75d522972c69646407d5328e4e9aee3ee5b056fa5d074f5d1bfe612208c4cb59998f1fefefee0d7d188908706f40f'
+DoToDo::Application.config.secret_key_base = 'eae6536dcf4618c44c9573228b5753eb8e28fe4949b6a1322d4cbadd07817d0ce292eb7c4aa0d15e3b19a0efb5ab7c540a3182b233a7336936eeebff4564d454'
